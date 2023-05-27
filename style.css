@@ -121,6 +121,6 @@ video{
 @media (max-width:380px){
   .time-display{
     position:absolute;
-    bottom:4;
+    bottom:4px;
   }
 }
