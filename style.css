@@ -34,7 +34,7 @@
   position:absolute;
   bottom:10%;
   color:white;
-  font-size: 50px;
+  font-size: 46px;
   /* margin-top: 20px; */
 }
 
@@ -121,6 +121,6 @@ video{
 @media (max-width:380px){
   .time-display{
     position:absolute;
-    bottom:0;
+    bottom:4;
   }
 }
