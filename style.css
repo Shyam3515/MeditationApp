@@ -43,7 +43,6 @@ video{
   position:fixed;
   top:0%;
   left:0%;
-  width: 100%;
   z-index: -1;
 }
 .time-select button{
@@ -76,15 +75,16 @@ video{
   background-color: rgb(195, 127, 0);
 }
 
-@media (max-width:475px){
+@media (max-width:450px){
   .app{
     flex-direction: column;
       
   }
-  /* .color{
-    background-color: aqua;
-    z-index:-5;
-  } */
+  .time-display{
+    position:absolute;
+    bottom:8px;
+    font-size: 42px;
+  }
   .time-select, .sound-picker {
     width:100%;
     height: 80vh;
@@ -112,16 +112,11 @@ video{
   }
   .player-container{
     flex:1;
+    justify-content: center;
   }
   .sound-picker button {
     height: 100px;
     width: 100px;
   }
 }
-@media (max-width:380px){
-  .time-display{
-    position:absolute;
-    bottom:8px;
-    font-size: 42px;
-  }
-}
+
